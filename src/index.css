@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-bg: #0B0E13;
+  --color-accent: #0B1422;
+  --color-borders: #101C2E;
+  --color-details: #B4CDED;
+  --color-fg: #F0F4EF;
+  --color-gray: #D2E1EE;
+
+  /* Typography */
+  --font-sans: "Avenir Next", Avenir, sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+}
+
+@layer base {
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}

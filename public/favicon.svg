@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="61px" viewBox="0 0 77 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="DiegosFont-Regular, Diegos Font" font-size="70" font-weight="normal">
+        <g id="Nav-Bar" transform="translate(-96, -48)" fill="#B4CDED">
+            <text id="Logo">
+                <tspan x="96" y="104">DF.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
